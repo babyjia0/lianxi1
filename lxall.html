@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // 交换两个变量
+        // var num1 = 2
+        // var num2 = 6
+        // var num3 = num1
+        // num1 = num2
+        // num2 = num3
+        // console.log(num1, num2);
+
+        // 转义字符
+        // var str = '站在广州小蛮腰之上,\n' +
+
+        //     '忍不住大声喊道 :\"论苍茫大地,谁主沉浮?\"\n' +
+
+        //     '\'扑通\'一声,太激动,摔倒椅子了......';
+        // alert(str);
+
+
+        // typeof数据类型
+        var num = 45;
+        var str = 'andy';
+        var de = undefined;
+        var flag = true;
+        var nu = null;
+        var obj = new Object();
+        console.log(typeof num);
+        console.log(typeof str);
+        console.log(typeof flag);
+        console.log(typeof nu);
+        console.log(typeof obj);
+
+        // 转换为数值型 parse
+        var num4 = 50;
+        var num5 = 36.8;
+        console.log(parseInt(num5));
+        console.log(parseFloat(num5));
+
+        // ++前置 ++后置
+        // var a = 1;
+        // a++
+        // var b = a++ + 3
+        // console.log(b);
+
+        // var c = 1;
+        // ++c
+        // var d = ++c + 3
+        // console.log(d);
+
+        var a = 1;
+        var b = ++a + ++a;
+        2 + 3
+        console.log(b);
+        5
+        var a = 1;
+        var b = a++ + ++a;
+        1 + 2 + 1
+        console.log(b);
+        4
+        var a = 1;
+        var b = ++a + a++;
+        2 + 1 + 1
+        console.log(b);
+        4
+
+        var a = 1;
+        var b = a++ + a++;
+        1 + 1 + 1
+        console.log(b);
+        3
+
+        var a = 10;
+        ++a;
+        var b = ++a + 2;
+        11 + 1 + 2
+        console.log(b);
+        14
+
+        var c = 10;
+        c++;
+        var d = c++ + 2;
+        11 + 2
+        console.log(d);
+        13
+
+        // 计算年龄
+        var year = prompt('请输入您的出生年份：')
+        var resule = 2018 - year;
+        alert('您的年龄是' + resule + '岁！');
+    </script>
+
+</head>
+
+<body>
+
+    <p> 1，变量由数字，字母，下划线，美元符号组成，区分大小写，不能以数字开头，不能有关键字，保留字，特殊符号。遵。守驼峰命名法</p>
+    <p>2.转义字符：\n换行 \'引号 \t表示tab \b空格 target="_blank"表示打开一个新窗口 </p>
+</body>
+
+</html>
