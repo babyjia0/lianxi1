@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var mon = 100;
+        var chk = prompt('请输入您要办理的业务：');
+        var y = '';
+        switch (chk) {
+            case '1':
+                c = prompt('请输入您要存的金额：')
+                y = 100 + parseInt(c);
+                alert('您的余额为：' + y + '元');
+                break;
+            case '2':
+                q = prompt('请输入您要取的金额：')
+                y = mon - parseInt(q);
+                alert('您的余额为：' + y + '元');
+                break;
+            case '3':
+                y = mon;
+                alert('您的余额为：' + y + '元')
+                break;
+            case '4':
+                break;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
